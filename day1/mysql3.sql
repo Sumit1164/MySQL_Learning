@@ -1,0 +1,26 @@
+create database college;
+CREATE DATABASE IF NOT EXISTS college;
+USE college;
+CREATE TABLE student5(
+id INT PRIMARY KEY,
+name VARCHAR(400),
+age INT NOT NULL,
+number INT 
+);
+INSERT INTO student5 VALUES(11, "SUMIT", 20, 99);
+INSERT INTO student5 VALUES(12, "AMIT", 25, 97);
+INSERT INTO student5 VALUES(13, "KASHISH", 19, 88);
+INSERT INTO student5 VALUES(14, "KASU", 19, 93);
+
+SELECT * FROM student5;
+DROP TABLE student5;
+show databases;
+CREATE DATABASE empp;
+USE empp;
+CREATE TABLE emp1(
+id INT,
+salary INT DEFAULT 25000
+);
+INSERT INTO emp1(id) VALUES(101);
+INSERT INTO emp1(id) VALUES(201);
+SELECT * FROM emp1;
