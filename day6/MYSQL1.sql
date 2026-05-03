@@ -24,3 +24,7 @@ INSERT INTO addresses (user_id, street, city, state, pincode) VALUES (1,'12 MG R
 
 SELECT * FROM addresses;
 SELECT * FROM user;
+
+
+DELETE FROM addresses WHERE id = 9;     -- IT CAN BE DELETE DATA FROM THE ADDRESSES TABLE
+DELETE FROM `user` WHERE id = 2;        -- IT CAN BE DELETE BOTH TABLE DATA BECAUSE MAIN TABLE DATA IS DELETE
